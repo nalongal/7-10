@@ -1,0 +1,5 @@
+sentence = input("Please, enter a sentence:")
+list_sentence = sentence.split(" ")
+reversed_list = reversed(list_sentence)
+reversed_sentence = " ".join(reversed_list)
+print(reversed_sentence)
